@@ -3,7 +3,7 @@ faiss_db:
 
 embedding_model:
   provider: "google"
-  model: "models/text-embedding-004"
+  model_name: "models/text-embedding-004"
 
   retriver:
     top_k: 5
@@ -15,7 +15,7 @@ llm:
     temperature: 0
     max_output_tokens: 2048
 
-    google:
+  google:
       provider: "google"
       model_name: "gemini-2.5-flash"
       temperature: 0
