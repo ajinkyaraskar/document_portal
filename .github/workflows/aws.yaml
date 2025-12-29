@@ -20,7 +20,7 @@ permissions:
 
 jobs:
   # -------------------------------
-  # 1. Build & Push Docker Image
+  # 1. Build & Push Docker Image -> build-and-push
   # -------------------------------
   build-and-push:
     name: Build & Push Docker Image
