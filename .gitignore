@@ -9,3 +9,8 @@ test.py
 faiss_index/
 data/
 Notes.txt
+check-infrastructure.bat
+check-infrastructure.sh
+deploy-infrastructure.bat
+deploy-infrastructure.sh
+DEPLOYMENT-GUIDE.md
