@@ -29,12 +29,12 @@
       "secrets": [
         {
           "name": "GROQ_API_KEY",
-          "valueFrom": "arn:aws:secretsmanager:us-east-1:311843862584:secret:api_keys-tm0hQf:GROQ_API_KEY"
+          "valueFrom": "arn:aws:secretsmanager:us-east-1:311843862584:secret:api_keys-tm0hQf"
         },
         
         {
           "name": "GOOGLE_API_KEY",
-          "valueFrom": "arn:aws:secretsmanager:us-east-1:311843862584:secret:api_keys-tm0hQf:GOOGLE_API_KEY"
+          "valueFrom": "arn:aws:secretsmanager:us-east-1:311843862584:secret:api_keys-tm0hQf"
         }
         
       ],
@@ -44,8 +44,7 @@
           "awslogs-group": "/ecs/documentportaltd",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs",
-          "mode": "non-blocking",
-          "max-buffer-size": "25m"
+          "awslogs-create-group": "true"
         }
       }
     }
